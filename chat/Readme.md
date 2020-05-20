@@ -11,8 +11,8 @@ Once the user connects to the server it can use any of the followint commands to
 *To run*
 
 Server:
-1. go build .
-2. ./chat
+```$ go build .```
+```$ ./chat```
 
 Clients:
-1. telnet localhost 8888
+``` telnet localhost 8888```
