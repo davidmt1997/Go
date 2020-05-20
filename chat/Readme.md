@@ -7,3 +7,12 @@ Once the user connects to the server it can use any of the followint commands to
 - /rooms - show list of available rooms to join.
 - /msg <msg> - broadcast message to everyone in a room.
 - /quit - disconnects from the chat server.
+
+*To run*
+
+Server:
+1. go build .
+2. ./chat
+
+Clients:
+1. telnet localhost 8888
